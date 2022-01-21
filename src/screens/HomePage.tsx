@@ -33,7 +33,7 @@ const HomePage: React.FC = () => {
         style={flatStyle}
         contentContainerStyle={{ marginHorizontal: 20}}
         data={repositories}
-        keyExtractor={item => String(item.id)}
+        keyExtractor={(item, index) => String(item.id + index)}
         renderItem={  ({ item }) =>  <ListItem item={item} /> }
         onEndReachedThreshold={0.1}
         onEndReached={loadFromApi}

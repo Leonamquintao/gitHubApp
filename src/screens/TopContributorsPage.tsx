@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, Button, Image, Text, StyleSheet, FlatList } from 'react-native';
+import { View, Button, StyleSheet, FlatList } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import {fetchTopContributors} from '../services/HttpService';
 import { ContribItem } from '../types';

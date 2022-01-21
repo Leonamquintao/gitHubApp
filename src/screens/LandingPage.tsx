@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 import { StyleSheet, Image, View, Text, TouchableOpacity } from 'react-native';
 
 const LandingPage: React.FC = ({navigation}) => {
