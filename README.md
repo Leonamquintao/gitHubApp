@@ -6,6 +6,8 @@
 
 Clone the repo;
 
+> node v16.13.1
+
 run `yarn` or `npm install`;
 
 cd ios && `pod install`;
